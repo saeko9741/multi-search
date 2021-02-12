@@ -10,8 +10,8 @@
   </div>
 
   <form name="form" id="search_form">
-    <input type="text" name="text_box" id="search_text" placeholder="検索ワード" />
-    <button type="submit" class="reset flat border" onclick="onButtonClick();" style="padding:0;border:0"></button>
+    <input type="text" name="text_box" id="search_text" class="require" placeholder="検索ワード" minlength="2" maxlength="20" required autocomplete="off" autofocus/>
+    <button type="submit" class="reset flat border" onclick="onButtonClick();" style="padding:0; border:0"></button>
   </form>
 
   <script type="text/javascript" src="search.js"></script>
